@@ -24,22 +24,16 @@ Spinal cord injury (SCI) often results in motor, sensory, and autonomic dysfunct
 
 ### Analysis Pipeline
 1. **Data Preprocessing**: Structural MRI data preparation
-2. **Normative Model Application**: Deviation calculation using Braincharts
-3. **Group Comparisons**: SCI-NP vs SCI-nNP analysis
-4. **Correlation Analysis**: Structural deviations vs clinical measures
+2. **Normative Model Application**: Deviation calculation using Braincharts (Apply_normative_model_.ipynb)
+3. **SCI Comparison to normative model**: SCI deviations from the normative model
+4. **Group Comparisons**: SCI-NP vs SCI-nNP analysis
+5. **Correlation Analysis**: Structural deviations vs clinical pain measures 
 
-## Expected Outcomes
-
-- Individual-level brain structural deviation maps for SCI participants
-- Comparative analysis between pain and non-pain groups
-- Correlation matrices linking structural changes to pain characteristics
-- Statistical significance testing for group differences
-
-## Research Significance
-
-This study addresses limitations in current SCI neuroimaging research by:
-- Using large-scale normative data for comparison
-- Providing individual-level rather than group-level analyses
-- Investigating the specific relationship between structural changes and neuropathic pain
 
 ## Repository Structure
+1. **Apply_normative_model_.ipynb**: Demonstrates how to use Braincharts normative models to estimate individual brain structure deviations in new data, including model adaptation for new sites and extraction of normative values.
+    - Adaption_file_Controls.csv: This is a fictive example file containing structural MRI data (FreeSurfer Outputs) from healthy control participants, including demographic information (e.g., age, sex, site) and detailed cortical thickness and subcortical volume measurements. It is intended to illustrate how to adapt the Braincharts normative model to the specific characteristics of a new dataset or imaging site.
+
+    - Braincharts_SCI_Template.csv: This is a fictive example file providing structural MRI data (FreeSurfer Outputs) for spinal cord injury (SCI) participants. It includes the same types of measurements as the controls file, allowing for demonstration of how to calculate individual deviations from the normative model and perform group analyses.
+
+2. **Final_Brain_Analysis_Braincharts.ipynb**: Performs SCI participant comparisons to the normative model, followed by group comparisons (SCI-NP vs. normative model, SCI-nNP vs. normative model, SCI-NP vs. SCI-nNP), , and correlation of brain structure deviations with pain measures.
