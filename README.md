@@ -11,7 +11,7 @@ Department of Health Science and Technology, ETH Zurich, Switzerland
 
 ##  Project Overview
 
-Spinal cord injury (SCI) often results in motor, sensory, and autonomic dysfunction and is frequently accompanied by neuropathic pain (NP). Traditional neuroimaging studies of SCI are limited by small, unmatched control groups. This project leverages normative modeling to detect individual-level structural brain deviations in SCI, using the Braincharts framework trained on over 58,000 healthy controls.
+Spinal cord injury (SCI) often results in motor, sensory, and autonomic dysfunction and is frequently accompanied by neuropathic pain (NP). Traditional neuroimaging studies of SCI are limited by small, unmatched control groups. This project leverages normative modeling to detect individual-level structural brain deviations in SCI, using the [Braincharts framework] (https://github.com/predictive-clinical-neuroscience/braincharts/tree/master) trained on over 58,000 healthy controls. 
 
 ### Key Goals
 
@@ -36,8 +36,8 @@ Spinal cord injury (SCI) often results in motor, sensory, and autonomic dysfunct
 
 ## Repository Structure
 1. **Apply_normative_model_.ipynb**: Demonstrates how to use Braincharts normative models to estimate individual brain structure deviations in new data, including model adaptation for new sites and extraction of normative values.
-    - Adaption_file_Controls.csv: This is a fictive example file containing structural MRI data (FreeSurfer Outputs) from healthy control participants, including demographic information (e.g., age, sex, site) and detailed cortical thickness and subcortical volume measurements. It is intended to illustrate how to adapt the Braincharts normative model to the specific characteristics of a new dataset or imaging site.
+    - Adaption_file_Controls.csv: This is a illustrative example file containing structural MRI data (FreeSurfer Outputs) from healthy control participants, including demographic information (e.g., age, sex, site) and detailed cortical thickness and subcortical volume measurements. It is intended to illustrate how to adapt the Braincharts normative model to the specific characteristics of a new dataset or imaging site.
 
-    - Braincharts_SCI_Template.csv: This is a fictive example file providing structural MRI data (FreeSurfer Outputs) for spinal cord injury (SCI) participants. It includes the same types of measurements as the controls file, allowing for demonstration of how to calculate individual deviations from the normative model and perform group analyses.
+    - Braincharts_SCI_Template.csv: This is a illustrative example file providing structural MRI data (FreeSurfer Outputs) for spinal cord injury (SCI) participants. It includes the same types of measurements as the controls file, allowing for demonstration of how to calculate individual deviations from the normative model and perform group analyses.
 
 2. **Final_Brain_Analysis_Braincharts.ipynb**: Performs SCI participant comparisons to the normative model, followed by group comparisons (SCI-NP vs. normative model, SCI-nNP vs. normative model, SCI-NP vs. SCI-nNP), , and correlation of brain structure deviations with pain measures.
