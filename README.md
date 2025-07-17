@@ -1,10 +1,11 @@
 # Structural Brain Deviations in Spinal Cord Injury and Neuropathic Pain
 
-This repository contains code and data analyses for the Master's thesis:
-
-**"Normative modeling reveals brain structure abnormalities in spinal cord injury and neuropathic pain"**  
-Author: Valentina Haas 
+### This repository contains code and data analyses for the Master's thesis:**"Normative modeling reveals brain structure abnormalities in spinal cord injury and neuropathic pain"**  
+Author: Valentina Haas
+ 
 International Collaboration on Repair Discoveries, University of British Columbia, Vancouver, BC, Canada
+
+
 Department of Health Science and Technology, ETH Zurich, Switzerland
 
 ##  Project Overview
