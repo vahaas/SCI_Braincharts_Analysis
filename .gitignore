@@ -15,9 +15,11 @@ brain_residuals_plot.svg
 .idea/
 .DS_Store
 
-# Ignore local data files
-Adaption_file_Controls.csv
-Braincharts_SCI_Template.csv
+
+
+
+
+
 
 
 
