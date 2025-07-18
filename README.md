@@ -9,6 +9,8 @@ International Collaboration on Repair Discoveries, University of British Columbi
 
 Department of Health Science and Technology, ETH Zurich, Switzerland
 
+*Note: This is all based on an illustrative sample of data, in order to protect patient confidentiality.
+
 ##  Project Overview
 
 Spinal cord injury (SCI) often results in motor, sensory, and autonomic dysfunction and is frequently accompanied by neuropathic pain (NP). Traditional neuroimaging studies of SCI are limited by small, unmatched control groups. This project leverages normative modeling to detect individual-level structural brain deviations in SCI, using the [Braincharts framework](https://github.com/predictive-clinical-neuroscience/braincharts/tree/master) trained on over 58,000 healthy controls. 
