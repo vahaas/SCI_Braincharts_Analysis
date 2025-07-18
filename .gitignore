@@ -1,0 +1,25 @@
+# Ignore all local analysis notebooks
+Apply_normative_model_Final.ipynb
+Brain Visualisation_New.ipynb
+Braincharts Distribution.ipynb
+Comparison adaption step.ipynb
+Final_Brain_Analysis.ipynb
+Final_Brain_Analysis_Finalversion.ipynb
+
+# Ignore all local images/plots
+Residuals_SCI_All_and_Subgroups.png
+brain_residuals_plot.pdf
+brain_residuals_plot.svg
+
+# Ignore PyCharm project files
+.idea/
+.DS_Store
+
+# Ignore local data files
+Adaption_file_Controls.csv
+Braincharts_SCI_Template.csv
+
+
+
+
+
