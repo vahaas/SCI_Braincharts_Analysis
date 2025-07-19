@@ -1,4 +1,4 @@
-# Structural Brain Deviations in Spinal Cord Injury and Neuropathic Pain
+# Structural brain deviations in spinal cord snjury and neuropathic pain
 
 This repository contains code and data analyses for the Master's thesis: **"Normative modeling reveals brain structure abnormalities in spinal cord injury and neuropathic pain"**
 
