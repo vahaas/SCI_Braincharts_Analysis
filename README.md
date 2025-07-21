@@ -48,6 +48,6 @@ Spinal cord injury (SCI) often results in motor, sensory, and autonomic dysfunct
 2. **Final_Brain_Analysis_Braincharts.ipynb**: Performs SCI participant comparisons to the normative model, followed by group comparisons (SCI-NP vs. normative model, SCI-nNP vs. normative model, SCI-NP vs. SCI-nNP), and correlation of brain structure deviations with pain measures.
 
    Files needed: 
-    - Normative_values_males.xslx
-    - Normative_values_females.xslx
+    - normative_values_males.xslx
+    - normative_values_females.xslx
     - Example_Adjusted_Values_Info.xslx: This includes both the values that have been calculated in step 1 and additional clinical information
