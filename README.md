@@ -31,10 +31,11 @@ Spinal cord injury (SCI) often results in motor, sensory, and autonomic dysfunct
 
 ### Analysis Pipeline
 1. **Data Preprocessing**: Structural MRI data preparation
-2. **Normative Model Application**: Deviation calculation using Braincharts (Apply_normative_model_.ipynb)
-3. **SCI Comparison to normative model**: SCI deviations from the normative model
-4. **Group Comparisons**: SCI-NP vs SCI-nNP analysis
-5. **Correlation Analysis**: Structural deviations vs clinical pain measures 
+2. **Normative Model Application**: Extraction of new adjusted SCI values + normative values for analysis (Apply_normative_model_.ipynb)
+3. **Calulation of deviations from normative model**: Deviation calculation (new adjusted values - normative values) 
+4. **SCI Comparison to normative model**: SCI deviations from the normative model
+5. **Group Comparisons**: SCI-NP vs SCI-nNP analysis
+6. **Correlation Analysis**: Structural deviations vs clinical pain measures 
 
 
 ## Repository Structure
