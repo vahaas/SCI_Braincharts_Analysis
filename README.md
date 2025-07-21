@@ -42,7 +42,12 @@ Spinal cord injury (SCI) often results in motor, sensory, and autonomic dysfunct
 1. **Apply_normative_model_SCI.ipynb**: Demonstrates how to use Braincharts normative models to estimate individual brain structure deviations in new data, including model adaptation for new sites and extraction of adjusted values + normative values from each feature.
     - Adaption_file_Controls.csv: This is an **illustrative example** file containing structural MRI data (FreeSurfer Outputs) from healthy control participants, including demographic information (e.g., age, sex, site) and detailed cortical thickness and subcortical volume measurements. It is intended to illustrate how to adapt the Braincharts normative model to the specific characteristics of a new dataset or imaging site.
     - Braincharts_SCI_Template.csv: This is an **illustrative example** file providing structural MRI data (FreeSurfer Outputs) for spinal cord injury (SCI) participants. It includes the same types of measurements as the controls file, allowing for demonstration of how to calculate individual deviations from the normative model and perform group analyses. 
-    - Normative_values_males.xslx: This is the **extracted** file with all the normative values for each age category and centile per feature for the males.
-    - Normative_values_females.xslx: This is the **extracted** file with all the normative values for each age category and centile per feature for the females. 
+    - normative_values_males.xslx: This is the **extracted** file with all the normative values for each age category and centile per feature for the males.
+    - normative_values_females.xslx: This is the **extracted** file with all the normative values for each age category and centile per feature for the females. 
       
-2. **Final_Brain_Analysis_Braincharts.ipynb**: Performs SCI participant comparisons to the normative model, followed by group comparisons (SCI-NP vs. normative model, SCI-nNP vs. normative model, SCI-NP vs. SCI-nNP), , and correlation of brain structure deviations with pain measures.
+2. **Final_Brain_Analysis_Braincharts.ipynb**: Performs SCI participant comparisons to the normative model, followed by group comparisons (SCI-NP vs. normative model, SCI-nNP vs. normative model, SCI-NP vs. SCI-nNP), and correlation of brain structure deviations with pain measures.
+
+Files needed: 
+    - Normative_values_males.xslx
+    - Normative_values_females.xslx
+    - Example_Adjusted_Values_Info.xslx: This includes both the values that have been calculated in step 1 and additional clinical information
